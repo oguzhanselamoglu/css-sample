@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Margin</title>
     <style>
-        body{
-            margin: 0;
-        }
+   
       .kutu {
         width: 150px;
         height: 150px;
+        
+        margin: 50px 100px 50px 20px;
       }
       #kutu1 {
         background: lightpink;
+    
       }
       #kutu2 {
         background: lightgreen;
+        margin: auto;
 
       }
       #kutu3 {
@@ -25,11 +27,18 @@
 
  
       }
+      span {
+        margin: 10px;
+        display: inline-block;
+        background: lightpink;
+      }
     </style>
   </head>
   <body>
     <div class="kutu" id="kutu1">Kutu 1</div>
     <div class="kutu" id="kutu2">kutu 2</div>
     <div class="kutu" id="kutu3">Kutu 3</div>
+
+    <span>1</span><span>2</span><span>3</span><span>4</span>
   </body>
 </html>

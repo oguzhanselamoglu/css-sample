@@ -1,3 +1,6 @@
+
+# CSS Denemeleri
+
 # display
 * block : ister div olsun ister span block olursa alt alta gözükür
 * div lerin default davranışı block dur
