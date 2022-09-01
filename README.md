@@ -16,3 +16,7 @@
 * position: absolite obsolite ise sayfa kenarlarını baz alır
 * position: fixed sayfayı scrool şeklinde değişmesine rağmen nesnemizin konumu değişmez
 * position: sticky üst tarafta kalmasını istediğimiz ve scrool aşağıya kaydıgında görünür kalmasını istediğimiz kullanırız
+
+# margin ve padding
+* margin herhangi bir öğenin kenarlarından itibaren verilen boşluğu ifade ederken
+padding ise öğenin içerisindeki objeler ile arasındaki boşluğu ifade eder
