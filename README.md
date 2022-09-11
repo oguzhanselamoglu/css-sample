@@ -20,3 +20,6 @@
 # margin ve padding
 * margin herhangi bir öğenin kenarlarından itibaren verilen boşluğu ifade ederken
 padding ise öğenin içerisindeki objeler ile arasındaki boşluğu ifade eder
+
+# Responsive
+sayfalardaki elementlerimize responsive özellik kazandırmak için @media elementinden faydalanırız farklı çözünürlükler için elementlerin davranışlarını değiştirebiliyoruz
