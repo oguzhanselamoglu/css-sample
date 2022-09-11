@@ -9,9 +9,13 @@
         *{
             box-sizing: border-box;
         }
+        img{
+            max-width: 100%;
+            height: auto;
+        }
         .kutu{
             width: 25%;
-            height: 250px;
+
             background: lightskyblue;
             float: left;
             border: 1px solid black;
@@ -20,7 +24,17 @@
         h1{
             font-size: 40px;
         }
-        @media screen and (max-width:700px) {
+        @media screen and (max-width:900px) {
+            
+            h1{
+                font-size: 30px;
+                color: red;
+            }
+            .kutu{
+                width: 50%;
+            }
+        }
+        @media screen and (max-width:600px) {
             
             h1{
                 font-size: 30px;
@@ -44,10 +58,10 @@
 </head>
 <body>
     <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
-    <div class="kutu"></div>
-    <div class="kutu"></div>
-    <div class="kutu"></div>
-    <div class="kutu"></div>
-    <div class="kutu"></div>
+    <div class="kutu"> <img src="images/download.jpg" alt=""></div>
+    <div class="kutu"> <img src="images/download.jpg" alt=""></div>
+    <div class="kutu"> <img src="images/download.jpg" alt=""></div>
+    <div class="kutu"> <img src="images/download.jpg" alt=""></div>
+    <div class="kutu"> <img src="images/download.jpg" alt=""></div>
 </body>
 </html>
