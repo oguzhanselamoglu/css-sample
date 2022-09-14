@@ -86,3 +86,7 @@ img{
 #section-d .box:first-child{
    background-color: darkslategrey;
 }
+footer{
+    padding: 4rem;
+    background: black;
+}
