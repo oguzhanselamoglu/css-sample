@@ -16,6 +16,12 @@ body {
     background-color: #fff;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .container {
     width: 1140px;
     margin-left: auto;
@@ -40,10 +46,41 @@ nav {
 a {
     text-decoration: none;
 }
+ul{
+    list-style-type: none;
+}
+
+#logo-box {
+    float: left;
+    padding-top: 0.5rem;
+}
 
 #logo-box .logo {
     color: #fff;
     font-weight: 700;
     font-size: 3.2rem;
 
+}
+
+#nav-links {
+    float: right;
+}
+
+#nav-links .nav-item {
+    float: left;
+    margin: 0.5rem;
+}
+
+#nav-links .nav-link {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;;
+}
+
+#nav-links .nav-link:hover {
+    color: #1ABC9B;
 }
