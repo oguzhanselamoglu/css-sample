@@ -189,6 +189,7 @@ hr.star-dark {
 }
 .portfolio-item img{
     display: block;
+    border-radius: 13px;
 }
 .img-overlay{
     position: absolute;
@@ -199,6 +200,7 @@ hr.star-dark {
     background-color: #1ABC9B;
     opacity: 0;
     transition: opacity 0.4s;
+    border-radius: 13px;
 }
 .img-overlay .icon{
     color: #fff;
@@ -210,4 +212,5 @@ hr.star-dark {
 }
 .portfolio-item:hover .img-overlay{
     opacity: 0.8;
+    border-radius: 13px;
 }
