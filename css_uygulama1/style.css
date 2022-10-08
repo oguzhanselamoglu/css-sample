@@ -68,6 +68,11 @@ a {
 ul {
     list-style-type: none;
 }
+section{
+    padding-top: 10rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
 
 #logo-box {
     float: left;
@@ -162,10 +167,8 @@ hr.star-dark {
 }
 
 #portfolio {
-    height: 600px;
-    padding-top: 10rem;
-    padding-bottom: 10px;
-    text-align: center;
+    
+
     
 }
 
@@ -213,4 +216,31 @@ hr.star-dark {
 .portfolio-item:hover .img-overlay{
     opacity: 0.8;
     border-radius: 13px;
+}
+
+#about{
+    background-color: #1ABC9B;
+    color: #fff;
+}
+#about h2{
+    font-size: 4.8rem;
+}
+
+#about-text{
+    text-align: left;
+}
+#about-text .left{
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+    padding-left: 23rem;
+}
+#about-text .right{
+    float: right;
+    width: 50%;
+    padding-right: 23rem;
+    padding-left: 2rem;
+}
+#about-text .text{
+ font-size: 2rem;
 }
