@@ -73,7 +73,42 @@ section{
     padding-bottom: 10px;
     text-align: center;
 }
+.btn {
+    margin-top: 2rem;
+    font-size: 2rem;
+   
+    font-weight: 400;
+    display: inline-block;
 
+    border: 2px solid #fff;
+    border-radius: 0.4rem;
+   
+    cursor: pointer;
+    transition: all .5s;
+}
+.btn-outline{
+    color: #fff;
+    border-color: #fff;
+    padding: 2.2rem 1.6rem;
+    background-color: transparent;
+}
+.btn-primary{
+
+    border-color: #1ABC9B;    
+    background-color: #1ABC9B;
+    padding: 1.2rem 1rem;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #128f76;
+    border-color: #128f76;
+ 
+}
+.btn-outline:hover {
+    color: #212529;
+    background-color: #fff;
+    
+}
 #logo-box {
     float: left;
     padding-top: 0.5rem;
@@ -218,6 +253,7 @@ hr.star-dark {
     border-radius: 13px;
 }
 
+/* About */
 #about{
     background-color: #1ABC9B;
     color: #fff;
