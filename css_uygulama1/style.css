@@ -223,37 +223,46 @@ section {
 #nav-links .nav-link:hover {
     color: #1ABC9B;
 }
+
 /* Header */
 #nav-links .nav-icon {
     display: none;
 }
+
 @media (max-width:992px) {
-    
-   #logo-box{
-    float: none;
-    text-align: left;
-   }
-   #nav-links{
-    float: none;
-   }
-   #nav-links .nav-link{
-    font-size: 2rem;
-    padding-left: 0%;
 
-   }
-   #nav-links .nav-item{
-    float: none;
-    text-align: left;
-   }
+    #logo-box {
+        float: none;
+        text-align: left;
+    }
 
-   #nav-links .nav-icon {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    font-size: 3rem;
+    #nav-links {
+        float: none;
+    }
+
+    #nav-links .nav-link {
+        font-size: 2rem;
+        padding-left: 0%;
+
+    }
+
+    #nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    #nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 3rem;
+    }
+    #nav-links.responsive li:not(:first-child){
+        display: none;
+    }
 }
-}
+
 header {
     background-color: #1ABC9B;
     height: 700px;
@@ -407,6 +416,7 @@ hr.star-dark {
         padding-right: 10px;
         padding-left: 210px;
     }
+
     #about-text .right {
         float: right;
         width: 50%;

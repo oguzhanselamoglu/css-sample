@@ -26,7 +26,7 @@
                     Start Bootstrap
                 </a>
             </div>
-            <div id="nav-links">
+            <div id="nav-links" class="responsive">
                 <ul>
                     <li class="nav-item text-upercase nav-icon">
                         <a href="#" class="nav-link">
@@ -217,6 +217,13 @@
             <small>Copyright</small>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" crossorigin="anonymous"></script>
+    <script>
+       $(".nav-icon").click(function(){
+        $("#nav-links").toggleClass("responsive");
+        return false;
+       })
+    </script>
 </body>
 
 </html>
